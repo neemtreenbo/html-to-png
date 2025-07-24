@@ -1,0 +1,30 @@
+{
+  "name": "html-to-png-service",
+  "version": "1.0.0",
+  "description": "HTML to PNG conversion service with CSS injection using Puppeteer, optimized for Railway deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": [
+    "html-to-png",
+    "puppeteer",
+    "image-conversion",
+    "api",
+    "railway",
+    "css-injection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.15.0"
+  }
+}
